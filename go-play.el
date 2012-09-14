@@ -3,6 +3,7 @@
 ;; Copyright (C) 2012 Dominik Honnef
 
 ;; Author: Dominik Honnef <dominikh@fork-bomb.org>
+;; Version: 0.0.1
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -51,3 +52,5 @@
                            (message "http://play.golang.org/p/%s" (buffer-substring (point) (point-max)))))))))))
 
 (provide 'go-play)
+
+;;; go-play.el ends here
